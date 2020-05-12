@@ -8,7 +8,8 @@ body {
 	height: 2000px;
 	background: #000019;
 }
-/* reset style close*/
+/* reset style close color body */
+/* nav style */
 .syle-nav li{
 	float: left;
 	list-style-type: none;
@@ -32,8 +33,9 @@ body {
 	margin-top: 19px;
 	padding-left: 40px;
 }
+/* nav style close */
 
-
+/* line */
 .vl {
   border: 0.5px solid #ffffff;
   height: 44px;
@@ -41,6 +43,8 @@ body {
   margin-left: 39px;
 }
 
+/* line */
+/* parallax */
 .scene {
 	z-index: auto;
 	position: absolute;
@@ -48,6 +52,7 @@ body {
 	transform: translateY(var(--translateY));
 	will-change: transform;
 }
+/* parallax */
 /* container section services */
 .container{
 	position: absolute;
@@ -62,5 +67,5 @@ body {
   margin: 60px;
   border: 2px solid #1553F5;
 }
-/* Animation */
+/* services end*/
 
