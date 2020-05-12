@@ -45,11 +45,29 @@ body {
 }
 
 .scene {
+	z-index: auto;
 	position: absolute;
 	width: 100%;
 	transform: translateY(var(--translateY));
 	will-change: transform;
 }
+/* Animation */
+.container{
+	position: absolute;
+	width: 100%;
+	margin-top: 2300px;
+	
+	
+}
+.box{
+  padding: 30px;
+  width: 180px;
+  height: 150px;
+  float: right;
+  margin: 15px;
+  border: 2px solid #1553F5;
+}
+/* Animation */
 .ciao{
 	
 	text-align: center;
