@@ -82,7 +82,8 @@ text-align: center;
 }
 .icon-position{
 	margin-top: 80px;
-	margin-left: 115px;
+	display: block;
+	margin: auto;
 }
 /* services end*/
 
