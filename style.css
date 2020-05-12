@@ -57,14 +57,12 @@ body {
 .container{
 	position: absolute;
 	margin-top: 1600px;	
-	left: 18%;
+	left: 15%;
 }
 .box{
-  padding: 30px;
-  width: 280px;
-  height: 250px;
+  width: 480px;
+  height: 550px;
   float: left;
-  margin: 60px;
   border: 2px solid #1553F5;
 }
 .title1{
@@ -76,6 +74,15 @@ body {
 	opacity: 30%;
 	letter-spacing: 5px;
 	
+}
+.title-box{
+color: aliceblue;
+text-align: center;
+	
+}
+.icon-position{
+	margin-top: 80px;
+	margin-left: 115px;
 }
 /* services end*/
 
