@@ -67,5 +67,15 @@ body {
   margin: 60px;
   border: 2px solid #1553F5;
 }
+.title1{
+	font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #ffffff;
+	opacity: 30%;
+	letter-spacing: 5px;
+	
+}
 /* services end*/
 
