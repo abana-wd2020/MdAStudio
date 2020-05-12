@@ -61,7 +61,7 @@ body {
   margin-left: 39px;
 }
 
-/* line */
+/* line end */
 /* parallax */
 .scene {
 	z-index: auto;
@@ -70,7 +70,7 @@ body {
 	transform: translateY(var(--translateY));
 	will-change: transform;
 }
-/* parallax */
+/* parallax end*/
 /* container section services */
 .container{
 	position: absolute;
