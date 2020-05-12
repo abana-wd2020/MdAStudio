@@ -48,28 +48,19 @@ body {
 	transform: translateY(var(--translateY));
 	will-change: transform;
 }
-/* Animation */
+/* container section services */
 .container{
 	position: absolute;
-	width: 100%;
-	margin-top: 2300px;
-	
-	
+	margin-top: 1600px;	
+	left: 18%;
 }
 .box{
   padding: 30px;
-  width: 180px;
-  height: 150px;
-  float: right;
-  margin: 15px;
+  width: 280px;
+  height: 250px;
+  float: left;
+  margin: 60px;
   border: 2px solid #1553F5;
 }
 /* Animation */
-.ciao{
-	
-	text-align: center;
-	margin-top: 200px;
-	font-size: 80px;
-	position: absolute;
-	color: antiquewhite;
-}
+
