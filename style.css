@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* reset style */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+	height: 2000px;
+	background: black;
+}
+/* reset style close*/
+.syle-nav li{
+	float: left;
+	list-style-type: none;
+	letter-spacing: 5px;
+    font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+}
+.syle-nav{
+	padding-left: 50px;
+	padding-top: 30px;
+	width: 100%;
+	z-index: 99;
+	position: absolute;
+	position: fixed;
+	color: #FFFFFF;
+}
+
+.position-content{
+	margin-top: 19px;
+	padding-left: 40px;
+}
+
+
+.vl {
+  border: 0.5px solid #ffffff;
+  height: 44px;
+  margin-top: 5px;
+  margin-left: 24px;
+	
+
+
+}
+
+.scene {
+	position: absolute;
+	width: 100%;
+	transform: translateY(var(--translateY));
+	will-change: transform;
+}
+.ciao{
+	
+	text-align: center;
+	margin-top: 200px;
+	font-size: 80px;
+	position: absolute;
+	color: antiquewhite;
+}

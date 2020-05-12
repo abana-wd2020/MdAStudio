@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/sfd8dxj.css">
+
+
+<title>MDA</title>
+</head>
+	<body>
+	<!-- navbar start -->
+		<hero>
+		<nav class="syle-nav">
+		    <ul>
+				<li><img src="img/logo.svg" alt="MDA logo"  width="80px" height="50px"></li>
+				<li><div class="vl"></div></li>
+				<li class="position-content">SERVICES</li>
+				<li class="position-content">WORKS</li>
+				<li class="position-content">ABOUT US</li>
+				<li class="position-content">CONTACT</li>
+			</ul>
+		</nav>
+	    </hero>
+	<!-- navbar end -->
+	<!-- prima sezione di simona -->	
+	<!-- prima sezione di simona end-->
+	<!-- JS i js vanno sempre prima della chiusura del body -->
+	<script src="jquery.js" ></script><!-- Load jQuery first -->
+    <script src="dist/basicScroll.min.js"></script>
+	<section id="logo-section"> 	
+	<img class="scene" data-modifier="30" src="img/p2.png" alt="">
+	<div class="scene ciao" data-modifier="20" > Gennaro fa schifo!</div>
+	<img class="scene" data-modifier="0" src="img/p6.png" alt="">
+	</section>
+	<script>
+	document.querySelectorAll('.scene').forEach((elem) => {
+	const modifier = elem.getAttribute('data-modifier')
+	basicScroll.create({
+		elem: elem,
+		from: 0,
+		to: 519,
+		direct: true,
+		props: {
+			'--translateY': {
+				from: '0',
+				to: `${ 10 * modifier }px`
+			}
+		}
+	}).start()	
+})
+    </script>
+	<!-- end JS -->
+</body>
+</html>
