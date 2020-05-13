@@ -1,4 +1,4 @@
-@charset "UTF-8";
+
 /* reset style */
 * {
   margin: 0;
@@ -104,3 +104,10 @@ text-align: center;
 	margin: auto;
 }
 /* services end*/
+/* works start*/
+.container2{
+	position: absolute;
+	margin-top: 2600px;	
+	left: 15%;
+}
+/* works end*/
