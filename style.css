@@ -32,10 +32,7 @@ body {
 	float: left;
 	list-style-type: none;
 	letter-spacing: 5px;
-    font-family: trumpgothicpro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20px;
+    
 }
 .syle-nav{
 	padding-left: 50px;
@@ -44,13 +41,27 @@ body {
 	z-index: 99;
 	position: absolute;
 	position: fixed;
-	color: #FFFFFF;
+	
 }
 
 .position-content{
 	margin-top: 19px;
 	padding-left: 40px;
 }
+
+.syle-nav a {
+    font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.syle-nav a:hover {
+    color: #969696;
+}
+
 /* nav style close */
 
 /* line */
