@@ -5,7 +5,7 @@
   padding: 0;
 }
 body {
-	height: 2000px;
+	
 	background: #000019;
 }
 
@@ -87,6 +87,8 @@ body {
 	position: absolute;
 	margin-top: 1600px;	
 	left: 15%;
+  margin-left: -15px;
+	
 }
 .box{
   width: 480px;
@@ -104,10 +106,17 @@ body {
 	letter-spacing: 5px;
 	
 }
+.content-box{
+	margin-top: 50px;
+}
 .title-box{
 color: aliceblue;
 text-align: center;
 	
+}
+.paragraphone{
+	color: aliceblue;
+	text-align: center;
 }
 .icon-position{
 	margin-top: 80px; 
@@ -120,5 +129,7 @@ text-align: center;
 	position: absolute;
 	margin-top: 2600px;	
 	left: 15%;
+  margin-left: -15px;
+	
 }
 /* works end*/
