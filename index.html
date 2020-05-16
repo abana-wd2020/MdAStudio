@@ -10,9 +10,11 @@
 <body class="fede-in-animate">
 <!-- navbar start -->
 <hero>
-  <nav class="sytle-nav">
+	
+  <div id="navbar" >
+	  <div class="sytle-nav">
     <ul>
-        <li><a href="#logo-section"><img src="img/logo.svg" alt="MdA logo"  width="75px" height="55px"></a></li>
+      <li><img src="img/logo.svg" alt="MDA logo"  width="75px" height="55px"></li>
       <li>
         <div class="vl"></div>
       </li>
@@ -21,7 +23,9 @@
       <li class="position-content"><a href="#aboutus">ABOUT US</a></li>
       <li class="position-content"><a href="#contacts">CONTACTS</a></li>
     </ul>
-  </nav>
+		  </div>
+  </div>
+	
   <!-- navbar end --> 
   <!-- parallax -->
   <section id="logo-section"> <img class="scene" data-modifier="30" src="img/p2.png" alt=""> <img class="scene" data-modifier="0" src="img/p6.png" alt=""> </section>
@@ -40,45 +44,59 @@
       </div>
       <div class="box">
         <div class="content-box"><img src="img/outline.svg" alt="" width="50%" class="icon-position">
-          <div class="title-box"> UI/UX DESIGN </div>
+          <div class="title-box">WEB DESIGN</div>
           <p class="paragraphone">Design and create UI / UX as a skin, observing the identity of the individual customer or agency</p>
         </div>
       </div>
-      <div class="box">
+		<div class="box">
         <div class="content-box"><img src="img/outline.svg" alt="" width="50%" class="icon-position">
-          <div class="title-box"> UI/UX DESIGN </div>
+          <div class="title-box">WEB DESIGN</div>
           <p class="paragraphone">Design and create UI / UX as a skin, observing the identity of the individual customer or agency</p>
         </div>
       </div>
+      
     </div>
   </div>
 </section>
 <!-- services end --> 
-<!-- works start -->
-<section>  
+<!-- works end -->
+<section>
   <div class="container2">
-      <div id="works">
     <div class="title1">02 WORKS</div>
     <div class="row top-space">
-      <div class="column content-container"> <p class="paragraphone2"> Ciao sono un testo molto carino e dolcino se  mi leggi sei bellino ora dammi un soldino</p></div>
-      <div class="column"> <img src="https://cdn.dribbble.com/users/1555585/screenshots/10805797/media/826f99ba6ca7207f1ab299cebe57fc0e.jpg" style="width:100%" height="640px" alt=""> </div>
-      <div class="column"> <img src="https://cdn.dribbble.com/users/1555585/screenshots/10805797/media/826f99ba6ca7207f1ab299cebe57fc0e.jpg" style="width:100%" alt=""> <img src="https://cdn.dribbble.com/users/1555585/screenshots/10805797/media/826f99ba6ca7207f1ab299cebe57fc0e.jpg" style="width:100%" alt=""> </div>
-	  <div class="column"> <img src="https://cdn.dribbble.com/users/1555585/screenshots/10805797/media/826f99ba6ca7207f1ab299cebe57fc0e.jpg" style="width:100%" alt=""> <img src="https://cdn.dribbble.com/users/1555585/screenshots/10805797/media/826f99ba6ca7207f1ab299cebe57fc0e.jpg" style="width:100%" alt=""> </div>
+      <div class="column"> <img src="img/box.jpg" style="width:450px, height:300px"  alt=""> <img src="img/box.jpg" style="width:425px, height:380px" alt=""> </div>
+      <div class="column"> <a href="https://medium.com/apple-developer-academy-federico-ii/a-free-style-guide-for-a-japanese-recipe-app-and-how-we-designed-it-d98387837e12" target="_blank"><img src="img/cat.jpg" style="500px" alt=""></a> </div>
+      <div class="column"> <img src="img/box.jpg" style="width:450px, height:300px"  alt=""> <img src="img/box.jpg" style="width:425px, height:380px" alt=""> </div>
+      <div class="column"> <a href="https://medium.com/apple-developer-academy-federico-ii/a-free-style-guide-for-a-japanese-recipe-app-and-how-we-designed-it-d98387837e12" target="_blank"><img src="img/cat.jpg" style="500px" alt=""></a> </div>
     </div>
   </div>
-        </div>
 </section>
 
 <!-- works end --> 
 
-<!-- aboutus start --> 
+<!-- aboutus start -->
+<section>
+  <div class="container3">
+    <div class="title1">03 ABOUT US</div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+    <div class="box3"></div>
+  </div>
+</section>
+	
 
 <!-- form start -->
-<section id="contacts"></section>
+<section id="contacts">
+	<div class="container4">
+    <div class="title1">04 CONTACTS</div>
+</div>
+	
+</section>
 <!-- form start --> 
 
 <!-- footer start -->
-<footer></footer>
+<footer class="footer"></footer>
 <!-- footer end --> 
 <!-- js before the body close tag --> 
 <script src="jquery.js" ></script><!-- Load jQuery first --> 
@@ -99,8 +117,33 @@
 		}
 	}).start()	
 })
-    </script> 
+</script> 
+<script>
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 <script src="src/tilt.jquery.js"></script> 
+	
+<script>
+// When the user scrolls down 20px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "-0";
+  } else {
+    document.getElementById("navbar").style.top = "-100px";
+  }
+}
+</script>
 
 <!-- end JS -->
 </body>
