@@ -164,6 +164,15 @@ color: white;
     color: #8610de;
 }
 
+li img{
+	transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  filter: opacity(85%);
+}
+
+li img:hover {
+  filter: opacity(100%);	
+}
 /* nav style close */
 
 
