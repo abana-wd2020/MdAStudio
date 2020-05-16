@@ -51,8 +51,9 @@ color: white;
 	position: fixed;
 	transition: top 0.3s;
 	width: 100%;
-	background: #F8171B;
+	background: #000019;
 	top: -120px;
+	padding-bottom: 10px;
 	
 	
 }
