@@ -59,7 +59,7 @@ body {
 }
 
 .syle-nav a:hover {
-    color: #969696;
+    color: #8610de;
 }
 
 /* nav style close */
@@ -123,6 +123,61 @@ text-align: center;
 	margin-top: 2600px;	
 	left: 15%;
   margin-left: -15px;
-	
+}
+
+.gallerycontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+    
+.gallerycolumn {
+  flex: 48%;
+  max-width: 48%;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.gallerycolumn img {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
 }
 /* works end*/
+
+/* aboutus start*/
+.container3{
+    position: absolute;
+	margin-top: 4600px;	
+	left: 15%;
+  margin-left: -15px;
+}
+
+.aboutuscontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+ /*rivedere dimensioni card, non corrispondono a quelle del file xd*/
+    width: 85px;
+  height: 440px;
+    background-color: aqua;
+    float: left;
+
+}
+/* aboutus end*/
+
+/* inizio media query, da rivedere */
+    @media (max-width: 1515px) {
+  .gallerycolumn {
+    flex: 46%;
+    max-width: 100%;
+      margin-right: 8px;
+    margin-left: 8px;
+  }
+        
+    .gallerycolumn img {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  vertical-align: middle;
+}
