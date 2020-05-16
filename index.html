@@ -7,10 +7,13 @@
 <link rel="stylesheet" href="https://use.typekit.net/sfd8dxj.css">
 <title>MdA</title>
 </head>
-<body class="fede-in-animate">
-<!-- navbar start -->
-<hero>
+<body class="fede-in-animate ">
 	
+	
+<!-- navbar start -->
+	
+<hero>
+	<div class="cursor"></div>
   <div id="navbar" >
 	  <div class="sytle-nav">
     <ul>
@@ -65,7 +68,7 @@
     <div class="title1">02 WORKS</div>
     <div class="row top-space">
       <div class="column"> <img src="img/box.jpg" style="width:450px, height:300px"  alt=""> <img src="img/box.jpg" style="width:425px, height:380px" alt=""> </div>
-      <div class="column"> <a href="https://medium.com/apple-developer-academy-federico-ii/a-free-style-guide-for-a-japanese-recipe-app-and-how-we-designed-it-d98387837e12" target="_blank"><img src="img/cat.jpg" style="500px" alt=""></a> </div>
+      <div class="column"> <a href="https://medium.com/apple-developer-academy-federico-ii/a-free-style-guide-for-a-japanese-recipe-app-and-how-we-designed-it-d98387837e12" target="_blank"><div><img src="img/cat.jpg"  alt=""></div></a> </div>
       <div class="column"> <img src="img/box.jpg" style="width:450px, height:300px"  alt=""> <img src="img/box.jpg" style="width:425px, height:380px" alt=""> </div>
       <div class="column"> <a href="https://medium.com/apple-developer-academy-federico-ii/a-free-style-guide-for-a-japanese-recipe-app-and-how-we-designed-it-d98387837e12" target="_blank"><img src="img/cat.jpg" style="500px" 
 	  alt=""></a> </div>
@@ -134,7 +137,27 @@ function scrollFunction() {
   }
 }
 </script>
+<!-- mouse pointer-->
+		<script>
+		const cursor = document.querySelector('.cursor');
 
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: "+(e.pageY - 5)+"px; left: "+(e.pageX - 5)+"px;")
+        })
+
+        document.addEventListener('click', () => {
+            cursor.classList.add("expand");
+
+            setTimeout(() => {
+                cursor.classList.remove("expand");
+            }, 500)
+        })
+	</script>
+		
 <!-- end JS -->
+	 
+<!-- end JS -->
+
+		
 </body>
 </html>
