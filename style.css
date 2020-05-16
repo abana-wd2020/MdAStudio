@@ -127,6 +127,9 @@ font-size: 30px;
 font-weight: 700;
 	
 }
+.top-space{
+	margin-top: 40px;
+}
 .paragraphone{
 	color: aliceblue;
 	text-align: center;
@@ -143,15 +146,20 @@ font-weight: 700;
 /* works start*/
 .content-container{
 	width: 30%;
-	height: 400px;
+	height: 500px;
 }
 .container2{
 	position: absolute;
 	margin-top: 2600px;	
 	left: 15%;
     margin-left: -15px;
+	padding-right: 15%;
 }
-
+.paragraphone2{
+	color: aliceblue;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+}
 /* section box work*/
 
 .row {
