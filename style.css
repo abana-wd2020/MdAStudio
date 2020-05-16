@@ -28,13 +28,13 @@ body {
 
 
 /* nav style */
-.syle-nav li{
+.sytle-nav li{
 	float: left;
 	list-style-type: none;
 	letter-spacing: 5px;
     
 }
-.syle-nav{
+.sytle-nav{
 	padding-left: 50px;
 	padding-top: 30px;
 	width: 100%;
@@ -42,14 +42,17 @@ body {
 	position: absolute;
 	position: fixed;
 	
+	
 }
+
+
 
 .position-content{
 	margin-top: 19px;
 	padding-left: 40px;
 }
 
-.syle-nav a {
+.sytle-nav a {
     font-family: trumpgothicpro, sans-serif;
 	font-weight: 700;
 	font-style: normal;
@@ -58,7 +61,7 @@ body {
     text-decoration: none;
 }
 
-.syle-nav a:hover {
+.sytle-nav a:hover {
     color: #969696;
 }
 
@@ -83,6 +86,7 @@ body {
 }
 /* parallax end*/
 /* container section services */
+
 .container{
 	position: absolute;
 	margin-top: 1600px;	
@@ -94,7 +98,7 @@ body {
   width: 480px;
   height: 550px;
   float: left;
-  border: 2px solid #1553F5;
+ 
 }
 .title1{
 	font-family: trumpgothicpro, sans-serif;
@@ -107,16 +111,24 @@ body {
 	
 }
 .content-box{
-	margin-top: 50px;
+	margin-top: 140px;
+	padding: 25px;
 }
 .title-box{
 color: aliceblue;
 text-align: center;
+font-family: 'Cantarell', sans-serif;
+margin-top: 40px;
+font-size: 30px;
+font-weight: 700;
 	
 }
 .paragraphone{
 	color: aliceblue;
 	text-align: center;
+	font-family: 'Cantarell', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
 }
 .icon-position{
 	margin-top: 80px; 
