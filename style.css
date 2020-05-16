@@ -51,7 +51,7 @@ color: white;
 	position: fixed;
 	transition: top 0.3s;
 	width: 100%;
-	background: #000019;
+	background: linear-gradient(rgba(18, 18, 18, 0.4), rgba(0, 0, 25, 0));
 	top: -120px;
 	padding-bottom: 10px;
 	
@@ -91,7 +91,7 @@ color: white;
 }
 
 .sytle-nav a:hover {
-    color: #969696;
+    color: #8610de;
 }
 
 /* nav style close */
