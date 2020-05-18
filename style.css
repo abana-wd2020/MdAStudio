@@ -297,23 +297,7 @@ font-weight: 700;
 	
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
 /* section box work end*/
 /* works end*/
 /* About us*/
@@ -322,14 +306,22 @@ font-weight: 700;
 	margin-top: 3700px;	
 	left: 15%;
     margin-left: -15px;
-	padding-right: 15%;
+	width: 71%;
 }
-.box3{
-  width: 355px;
-  height: 500px;
+
+.cardsbox {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.teamcard{
+  height: 446px;
   float: left;
-	border: solid #B04D4F;
-	
+  border: solid #B04D4F;
+    border-radius: 15px;
+  max-width: 100%;
+  flex: 22%;
+  margin: 0px 11px 0px 11px;
 }
 /* About us end*/
 /* contact us*/
@@ -339,14 +331,9 @@ font-weight: 700;
 	left: 15%;
     margin-left: -15px;
 	padding-right: 15%;
+	width: 71%;
 }
-.box3{
-  width: 355px;
-  height: 500px;
-  float: left;
-  border: solid #B04D4F;
-	
-}
+
 /* About us end*/
 .footer{
 	margin-top: 6700px;	 
@@ -356,7 +343,30 @@ font-weight: 700;
 	background: #4523D1;
 }
 
-	
+@media screen and (max-width: 1200px) {
+    .teamcard{
+  flex: 31%;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+    .teamcard{
+  flex: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 
 
