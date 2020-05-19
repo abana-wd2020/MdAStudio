@@ -28,11 +28,6 @@ body {
 }
 
 
-
-
-
-  
-
 /* reset style close color body */
 /* selection */
 ::-moz-selection  {
@@ -145,7 +140,7 @@ li img:hover {
 .position-thumb-image{
 	width: 35% !important;
 	top: 30%;
-	left: 35%;
+	left: 33%;
 }
 
 /* parallax end*/
