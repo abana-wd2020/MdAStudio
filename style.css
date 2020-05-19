@@ -329,11 +329,25 @@ font-weight: 700;
 .teamcard{
   height: 446px;
   float: left;
-  border-radius: 15px;
-  width: 340px;
-  background: rgba(255,255,255,1.00);
+    border-radius: 15px;
+  max-width: 100%;
+  flex: 22%;
   margin: 0px 11px 0px 11px;
+    background-color: beige;
 }
+
+@media screen and (max-width: 1344px) {
+    .teamcard{
+  flex: 31%;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .teamcard{
+  flex: 100%;
+}
+}
+
 /* About us end*/
 /* contact us*/
 .container4{
