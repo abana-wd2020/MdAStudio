@@ -31,7 +31,13 @@
 	
   <!-- navbar end --> 
   <!-- parallax -->
-  <section id="logo-section"> <img class="scene" data-modifier="30" src="img/p2.png" alt=""> <img class="scene" data-modifier="0" src="img/p6.png" alt=""> </section>
+  <section id="logo-section"> 
+  <img class="scene" data-modifier="30" src="img/p2.png" alt="">
+	  <img class="scene position-thumb" data-modifier="25" src="img/p3.png" alt="">
+	  <img class="scene position-thumb-image" data-modifier="26" src="img/illustration_animated.svg"  alt="">
+	  
+  <img class="scene" data-modifier="0" src="img/p6.png" alt="">
+  </section>
 </hero>
 <!-- parallax end --> 
 <!-- services -->
@@ -149,16 +155,10 @@ function scrollFunction() {
 		const cursor = document.querySelector('.cursor');
 
         document.addEventListener('mousemove', e => {
-            cursor.setAttribute("style", "top: "+(e.pageY - 5)+"px; left: "+(e.pageX - 5)+"px;")
+            cursor.setAttribute("style", "top: "+(e.pageY - 0)+"px; left: "+(e.pageX - 0)+"px;")
         })
 
-        document.addEventListener('click', () => {
-            cursor.classList.add("expand");
-
-            setTimeout(() => {
-                cursor.classList.remove("expand");
-            }, 500)
-        })
+        
 	</script>
 		
 <!-- end JS -->
