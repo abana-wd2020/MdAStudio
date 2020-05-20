@@ -297,12 +297,13 @@ font-weight: 700;
 }
 
 .sociales {
+    height: 28px;
     margin-top: -39px;
+    margin-right: 47%;
 }
 
 .socialicons {
-    height: 28px;
-    width: 28px;
+    width: 22%;
     background-color: aqua;
     border-radius: 15px;
     display: inline-block;
