@@ -12,7 +12,7 @@ html {
 
 body {
 	 
-	background: #000019;
+	background: #151631;
 }
 
 
@@ -286,25 +286,40 @@ font-weight: 700;
 }
 
 .teamcard{
-  height: 446px;
   float: left;
-    border-radius: 15px;
-  max-width: 100%;
   flex: 22%;
-  margin: 0px 11px 0px 11px;
-    background-color: beige;
+    margin: 11px;
+}
+.teamcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width: 1344px) {
-    .teamcard{
-  flex: 31%;
+.sociales {
+    margin-top: -39px;
+}
+
+.socialicons {
+    height: 28px;
+    width: 28px;
+    background-color: aqua;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .teamcard{
+  flex: 46%;
 }
 }
 
 @media screen and (max-width: 800px) {
   .teamcard{
   flex: 100%;
-}
+    }
 }
 
 /* About us end*/
