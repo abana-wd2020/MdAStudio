@@ -343,4 +343,29 @@ font-weight: 700;
 	background: #4523D1;
 }
 
-
+@media screen and (max-width: 1080px) {
+	.container2{
+		margin-top: 3700px;
+	}
+	.container3{
+		margin-top: 4700px;
+	}
+	.container4{
+		margin-top: 5700px;
+	}
+  
+  
+}
+@media screen and (max-width: 500px) {
+	.container2{
+		margin-top: 3700px;
+	}
+	.container3{
+		margin-top: 6700px;
+	}
+	.container4{
+		margin-top: 8700px;
+	}
+  
+  
+}
