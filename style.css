@@ -346,6 +346,7 @@ font-weight: 700;
 @media screen and (max-width: 1080px) {
 	.container2{
 		margin-top: 3700px;
+		
 	}
 	.container3{
 		margin-top: 4700px;
@@ -357,6 +358,16 @@ font-weight: 700;
   
 }
 @media screen and (max-width: 500px) {
+	
+	.container{
+	margin-top: 50vh;
+		background: #151631; 
+		left: 5%;
+  		margin-left: -5 px;
+		
+		
+		
+}
 	.container2{
 		margin-top: 3700px;
 	}
@@ -365,6 +376,9 @@ font-weight: 700;
 	}
 	.container4{
 		margin-top: 8700px;
+	}
+	.title1{
+		text-align: center;
 	}
   
   
