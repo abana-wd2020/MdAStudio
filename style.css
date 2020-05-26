@@ -6,9 +6,28 @@
 }
 body {
 	height: 2000px;
-	background: black;
+	background: #000019;
 }
-/* reset style close*/
+
+/* reset style close color body */
+
+/* animation body entry*/
+.fede-in-animate {
+  animation-duration: 3s;
+  animation-name: example;
+}
+@keyframes example {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/* animation body entry-end*/
+
+
+/* nav style */
 .syle-nav li{
 	float: left;
 	list-style-type: none;
@@ -32,29 +51,56 @@ body {
 	margin-top: 19px;
 	padding-left: 40px;
 }
+/* nav style close */
 
-
+/* line */
 .vl {
   border: 0.5px solid #ffffff;
   height: 44px;
-  margin-top: 5px;
-  margin-left: 24px;
-	
-
-
+  margin-top: 6px;
+  margin-left: 39px;
 }
 
+/* line end */
+/* parallax */
 .scene {
+	z-index: auto;
 	position: absolute;
 	width: 100%;
 	transform: translateY(var(--translateY));
 	will-change: transform;
 }
-.ciao{
-	
-	text-align: center;
-	margin-top: 200px;
-	font-size: 80px;
+/* parallax end*/
+/* container section services */
+.container{
 	position: absolute;
-	color: antiquewhite;
+	margin-top: 1600px;	
+	left: 15%;
 }
+.box{
+  width: 480px;
+  height: 550px;
+  float: left;
+  border: 2px solid #1553F5;
+}
+.title1{
+	font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #ffffff;
+	opacity: 30%;
+	letter-spacing: 5px;
+	
+}
+.title-box{
+color: aliceblue;
+text-align: center;
+	
+}
+.icon-position{
+	margin-top: 80px; 
+	display: block;
+	margin: auto;
+}
+/* services end*/

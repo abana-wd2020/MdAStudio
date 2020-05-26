@@ -4,35 +4,59 @@
 <meta charset="UTF-8">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://use.typekit.net/sfd8dxj.css">
-
-
 <title>MDA</title>
 </head>
-	<body>
+	<body class="fede-in-animate">
 	<!-- navbar start -->
 		<hero>
 		<nav class="syle-nav">
 		    <ul>
-				<li><img src="img/logo.svg" alt="MDA logo"  width="80px" height="50px"></li>
+				<li><img src="img/logo.svg" alt="MDA logo"  width="75px" height="55px"></li>
 				<li><div class="vl"></div></li>
-				<li class="position-content">SERVICES</li>
-				<li class="position-content">WORKS</li>
-				<li class="position-content">ABOUT US</li>
-				<li class="position-content">CONTACT</li>
+				<li class="position-content"><a href="#services">SERVICES</a></li>
+				<li class="position-content"><a href="#works">WORKS</a></li>
+				<li class="position-content"><a href="#aboutus">ABOUT US</a></li>
+				<li class="position-content"><a href="#contacts">CONTACTS</a></li>
 			</ul>
 		</nav>
-	    </hero>
-	<!-- navbar end -->
-	<!-- prima sezione di simona -->	
-	<!-- prima sezione di simona end-->
-	<!-- JS i js vanno sempre prima della chiusura del body -->
-	<script src="jquery.js" ></script><!-- Load jQuery first -->
-    <script src="dist/basicScroll.min.js"></script>
-	<section id="logo-section"> 	
+			<!-- navbar end -->
+			<!-- parallax -->
+		<section id="logo-section"> 	
 	<img class="scene" data-modifier="30" src="img/p2.png" alt="">
-	<div class="scene ciao" data-modifier="20" > Gennaro fa schifo!</div>
+			
 	<img class="scene" data-modifier="0" src="img/p6.png" alt="">
 	</section>
+	    </hero>
+		<!-- parallax end -->
+		<!-- services -->
+		<section id="services">
+			<div class="container">
+			<div class="title1">01 SERVICES</div>
+			<div class="box"><img src="img/outline.svg" alt="" width="50%" class="icon-position"><div class="title-box"> ciao sono un testo </div></div>
+			<div class="box"><img src="img/outline.svg" alt="" width="50%" class="icon-position"><div class="title-box"> ciao sono un testo </div></div>
+			<div class="box"><img src="img/outline.svg" alt="" width="50%" class="icon-position"><div class="title-box"> ciao sono un testo </div></div>
+			</div>
+		</section>
+		<!-- services end -->
+		
+		<!-- works start -->
+		<section id="works"></section>
+		<!-- works start -->
+		
+		<!-- aboutus start -->
+		<section id="aboutus"></section>
+		<!-- aboutus start -->
+		
+		<!-- form start -->
+		<section id="contacts"></section>
+		<!-- form start -->
+		
+		<!-- footer start -->
+		<footer></footer>
+		<!-- footer end -->
+	<!-- js before the body close tag -->
+	<script src="jquery.js" ></script><!-- Load jQuery first -->
+    <script src="dist/basicScroll.min.js"></script>
 	<script>
 	document.querySelectorAll('.scene').forEach((elem) => {
 	const modifier = elem.getAttribute('data-modifier')
@@ -50,6 +74,7 @@
 	}).start()	
 })
     </script>
+	<script src="src/tilt.jquery.js"></script>
 	<!-- end JS -->
 </body>
 </html>
