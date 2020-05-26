@@ -1,10 +1,17 @@
-@charset "UTF-8";
+
 /* reset style */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+	
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+<<<<<<< HEAD
 	height: 2000px;
 	background: #000019;
 }
@@ -29,23 +36,87 @@ body {
 
 /* nav style */
 .syle-nav li{
+=======
+	 
+	background: #151631;
+}
+
+
+
+.cursor {
+	z-index: 99;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+
+
+
+
+  
+
+/* reset style close color body */
+/* selection */
+::-moz-selection  {
+background: #5A00F7;
+color: white;
+	opacity: 100%
+}
+::selection   {
+background:  #5A00F7;
+color: white;
+	opacity: 100%
+}
+/* selection */
+
+
+/* animation body entry*/
+.fede-in-animate {
+  animation-duration: 3s;
+  animation-name: example;
+}
+@keyframes example {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 100;
+  }
+}
+/* animation body entry-end*/
+
+
+#navbar{
+	z-index: 98;
+	position: absolute;
+	position: fixed;
+	transition: top 0.3s;
+	width: 100%;
+	background: linear-gradient(rgba(18, 18, 18, 0.4), rgba(0, 0, 25, 0));
+	top: -120px;
+	padding-bottom: 10px;
+	
+	
+}
+/* nav style */
+.sytle-nav li{
+>>>>>>> 07a0357d9bbb35d3d76563ce8e7c94fa02115f18
 	float: left;
 	list-style-type: none;
 	letter-spacing: 5px;
-    font-family: trumpgothicpro, sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	font-size: 20px;
+    
 }
-.syle-nav{
+.sytle-nav{
 	padding-left: 50px;
 	padding-top: 30px;
 	width: 100%;
-	z-index: 99;
-	position: absolute;
-	position: fixed;
-	color: #FFFFFF;
 }
+
+
 
 .position-content{
 	margin-top: 19px;
@@ -53,6 +124,34 @@ body {
 }
 /* nav style close */
 
+<<<<<<< HEAD
+=======
+.sytle-nav a {
+    font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sytle-nav a:hover {
+    color: #8610de;
+}
+
+li img{
+	transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  filter: opacity(85%);
+}
+
+li img:hover {
+  filter: opacity(100%);	
+}
+/* nav style close */
+
+
+>>>>>>> 07a0357d9bbb35d3d76563ce8e7c94fa02115f18
 /* line */
 .vl {
   border: 0.5px solid #ffffff;
@@ -69,7 +168,17 @@ body {
 	width: 100%;
 	transform: translateY(var(--translateY));
 	will-change: transform;
+	
 }
+.position-thumb{
+ top: 310px;
+}
+.position-thumb-image{
+	width: 35% !important;
+	top: 30%;
+	left: 35%;
+}
+<<<<<<< HEAD
 /* parallax end*/
 /* container section services */
 .container{
@@ -102,5 +211,245 @@ text-align: center;
 	margin-top: 80px; 
 	display: block;
 	margin: auto;
+=======
+
+/* parallax end*/
+/* container section services */
+
+.container{
+	position: absolute;
+	margin-top: 1600px;	
+	left: 15%;
+  	margin-left: -15px;
+	
+}
+.box{
+  width: 480px;
+  height: 550px;
+  float: left;
+ 
+}
+.title1{
+	font-family: trumpgothicpro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 87px;
+	color: #ffffff;
+	opacity: 30%;
+	letter-spacing: 5px;
+	
+}
+.content-box{
+	margin-top: 140px;
+	padding: 25px;
+}
+.title-box{
+color: aliceblue;
+text-align: center;
+font-family: 'Cantarell', sans-serif;
+margin-top: 40px;
+font-size: 30px;
+font-weight: 700;
+	
+}
+.top-space{
+	margin-top: 40px;
+}
+.paragraphone{
+	color: aliceblue;
+	text-align: center;
+	font-family: 'Cantarell', sans-serif;
+	margin-top: 15px;
+	font-size: 20px;
+}
+.icon-position{
+	margin-top: 80px; 
+	display: block;
+	margin: auto;
+}
+/* services end*/
+/* works start*/
+
+.container2{
+	position: absolute;
+	margin-top: 2700px;	
+	left: 15%;
+    margin-left: -15px;
+	padding-right: 15%;
+}
+.paragraphone2{
+	color: aliceblue;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+}
+
+/* section box work*/
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding:  4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+	transition: filter .3s ease-in-out;
+  transition: background .3s ease-in-out;
+  -webkit-filter: opacity(70%); 
+  filter: opacity(70%);
+}
+.column img:hover {
+   
+  -webkit-filter: opacity(100%); 
+  filter: opacity(100%);
+	
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* section box work end*/
+/* works end*/
+/* About us*/
+.container3{
+	position: absolute;
+	margin-top: 3700px;	
+	left: 15%;
+    margin-left: -15px;
+	width: 71%;
+}
+
+.cardsbox {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.teamcard{
+  float: left;
+  flex: 22%;
+    margin: 11px;
+}
+.teamcard img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sociales {
+    height: 28px;
+    margin-top: -39px;
+    margin-right: 47%;
+}
+
+.socialicons {
+    width: 22%;
+    background-color: aqua;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+  .teamcard{
+  flex: 46%;
+}
+}
+
+@media screen and (max-width: 800px) {
+  .teamcard{
+  flex: 100%;
+    }
+}
+
+/* About us end*/
+/* contact us*/
+.container4{
+	position: absolute;
+	margin-top: 4700px;	
+	left: 15%;
+    margin-left: -15px;
+	padding-right: 15%;
+	width: 71%;
+}
+
+/* About us end*/
+.footer{
+	margin-top: 6700px;	 
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	background: #4523D1;
+}
+
+@media screen and (max-width: 1080px) {
+	.container2{
+		margin-top: 3700px;
+		
+	}
+	.container3{
+		margin-top: 4700px;
+	}
+	.container4{
+		margin-top: 5700px;
+	}
+  
+  
+}
+@media screen and (max-width: 500px) {
+	
+	.container{
+		
+	margin-top: 50vh;
+		background: #151631; 
+		
+		left: 5%;
+  		margin-left: -5 px;
+		
+		
+		
+}
+	.container2{
+		margin-top: 2500px;
+	}
+	.container3{
+		margin-top: 5300px;
+	}
+	.container4{
+		margin-top: 8000px;
+	}
+	.title1{
+		text-align: center;
+		font-size: 40px;
+	}
+  
+  
+>>>>>>> 07a0357d9bbb35d3d76563ce8e7c94fa02115f18
 }
 /* services end*/
