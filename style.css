@@ -285,7 +285,7 @@ padding: 50px;
 	display: flex;
 	position: absolute;
 	justify-content: center;
-	margin-top: 2800pt;
+	margin-top: 2500pt;
 }
 
 .colcont {
@@ -367,14 +367,12 @@ padding: 50px;
 		padding-left: 80px;
 	padding-right: 80px;
 	}
-	
 	.container3{
 		margin-top: 4000px;
 	
 	}
-	
-	
 }
+
 @media all and (max-width: 500px) {
 	
 	.container{
@@ -390,24 +388,16 @@ padding: 50px;
 		margin-top: 4000px;
 	
 	}
+    .container4{
+		margin-top: 6000px;
+	}
 	.position-thumb-image{
 		top:10%;
 	}
-	
-	
 }
 
 
 
-
-
-
-
-@media only screen and (max-width: 2200px) {
-  #menu-toggle {
-    display: none;
-  }
-}
 @media only screen and (max-width: 1000px) {
   .styleimg {
     width: 30%
@@ -460,5 +450,28 @@ padding: 50px;
     animation-duration: 0.4s;
     animation-name: example;
   }
+    .container4{
+		margin-top: 3800px;
+	}
+       .submit-button {
+           width: 100%;
+   }
 }
-	
+
+@media only screen and (max-width: 1616px) {
+.container4{
+		margin-top: 3700px;
+	}
+}
+
+@media only screen and (max-width: 816px) {
+.container4{
+		margin-top: 4700px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+.container4{
+		margin-top: 5900px;
+	}
+}
