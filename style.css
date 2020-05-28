@@ -422,9 +422,11 @@ padding: 50px;
     left: 80%;
     position: absolute;
     display: block;
+	 
+	 
   }
   .mobile-button {
-    background: #151631;;
+    background: #151631;
 	  
   }
   .mobile-menu {
@@ -436,8 +438,10 @@ padding: 50px;
     display: none;
     position: absolute;
     background-color: #151631;;
-    width: 440px;
-    margin-left: -390px;
+    width: 340px;
+	margin-top: -10px;
+    margin-left: -290px;
+	opacity:90%;
   }
   .mobile-content a {
     float: none;
@@ -453,7 +457,7 @@ padding: 50px;
     border: 0;
   }
   .mobile-content a:hover {
-    background-color: #232323;
+    background-color: #5A00F7;
   }
   .mobile-menu:hover .mobile-content {
     display: block;
@@ -468,14 +472,15 @@ padding: 50px;
    }
 }
 
-@media only screen and (max-width: 1616px) {
+@media all and (max-width: 1616px) {
 .container4{
 		margin-top: 3800px;
 	}
+	
     
 }
 
-@media only screen and (max-width: 816px) {
+@media all and (max-width: 816px) {
 .container4{
 		margin-top: 4700px;
 	}
@@ -484,7 +489,12 @@ padding: 50px;
   }
 }
 
-@media only screen and (max-width: 500px) {
+
+@media all and (max-width: 500px) {
+	.container2{
+		margin-top: 1240pt;	
+		
+	}
 .container4{
 		margin-top: 6000px;
 	}
