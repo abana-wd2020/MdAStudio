@@ -369,18 +369,17 @@ padding: 50px;
 .footer-style{
 	display: flex;
 	width: 100%;
-	height: 180px;
+	height: 100px;
 	background: rgba(45,20,125,1.00);
 	position: absolute;
 	margin-top: 5000px;
 	flex-flow: row;
 	color: aliceblue;
-	font-size: 12px;
-	
-	
-	}
+	font-size: 15px;
+}
 .bottom-space{
 	padding-top: -10px;
+	padding-left: 20px;
 }
 .bottom-space-logo{
 	padding-top: 30px;
