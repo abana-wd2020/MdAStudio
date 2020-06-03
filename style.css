@@ -21,7 +21,7 @@ body {
 ::-moz-selection  {
 background: #5A00F7;
 color: white;
-	opacity: 100%
+opacity: 100%
 }
 ::selection   {
 background:  #5A00F7;
@@ -93,7 +93,7 @@ color: white;
 }
 
 li img{
-	transition: filter .3s ease-in-out;
+  transition: filter .3s ease-in-out;
   transition: background .3s ease-in-out;
   filter: opacity(85%);
 }
@@ -367,7 +367,30 @@ padding: 50px;
 
 /* footer*/
 .footer-style{
+	display: flex;
+	width: 100%;
+	height: 180px;
+	background: rgba(45,20,125,1.00);
+	position: absolute;
+	margin-top: 5000px;
+	flex-flow: row;
+	color: aliceblue;
+	font-size: 12px;
 	
+	
+	}
+.bottom-space{
+	padding-top: -10px;
+}
+.bottom-space-logo{
+	padding-top: 30px;
+	margin-left: 40px;
+}
+
+.footer-style li{
+	float: right;
+	padding: 40px;
+	list-style-type:none;
 }
 /* footer*/
 @media all and (min-device-width : 320px) and (max-device-width : 480px) {
