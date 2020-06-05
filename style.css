@@ -33,7 +33,7 @@ color: white;
 
 /* animation body entry*/
 .fede-in-animate {
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-name: example;
 }
 @keyframes example {
@@ -197,6 +197,7 @@ margin-bottom: 0px;
 /* services end*/
 /* works start*/
 
+
 .container2{
 	position: absolute;
 	margin-top: 1400pt;	
@@ -283,8 +284,28 @@ margin-bottom: 0px;
   flex-wrap: wrap;
 }
 .box3{
-padding: 50px;
+padding: 20px;
 
+}
+.image-card{
+	background-image: url("img/alessia.png");
+	width: 250px;
+	height: 299px;
+	border-radius: 10px;
+}
+.image-card2{
+	
+	background-image: url("img/sarah.png");
+	width: 250px;
+	height: 299px;
+	border-radius: 10px;
+}
+.image-card3{
+	
+	background-image: url("img/gennaro.png");
+	width: 250px;
+	height: 299px;
+	border-radius: 10px;
 }
 
 /* About us end*/
@@ -372,7 +393,7 @@ padding: 50px;
 	height: 100px;
 	background: rgba(45,20,125,1.00);
 	position: absolute;
-	margin-top: 5000px;
+	margin-top: 4000px;
 	flex-flow: row;
 	color: aliceblue;
 	font-size: 15px;
@@ -405,9 +426,17 @@ padding: 50px;
 		margin-top: 4000px;
 	
 	}
+	.footer-style{
+		margin-top: 6000px;
+		
+	}
 }
 
 @media all and (max-width: 500px) {
+	.footer-style{
+		margin-top: 6500px;
+		
+	}
 	
 	.container{
 		margin-top: 300px;
