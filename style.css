@@ -200,7 +200,7 @@ margin-bottom: 0px;
 
 .container2{
 	position: absolute;
-	margin-top: 1400pt;	
+	margin-top: 1550pt;	
 	padding-left: 200px;
 	padding-right: 200px;
     left: 0;
@@ -273,7 +273,7 @@ margin-bottom: 0px;
 	display: flex;
 	position: absolute;
 	justify-content: center;
-	margin-top: 2000pt;
+	margin-top: 2300pt;
 }
 .wrap3{
 	text-align: center;
@@ -325,7 +325,7 @@ padding: 20px;
 	display: flex;
 	position: absolute;
 	justify-content: center;
-	margin-top: 2500pt;
+	margin-top: 2850pt;
 }
 
 .colcont {
@@ -400,7 +400,7 @@ padding: 20px;
 	height: 100px;
 	background: rgba(45,20,125,1.00);
 	position: absolute;
-	margin-top: 4000px;
+	margin-top: 4450px;
 	flex-flow: row;
 	color: aliceblue;
 	font-size: 15px;
