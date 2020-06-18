@@ -275,13 +275,14 @@ margin-bottom: 0px;
 	justify-content: center;
 	margin-top: 2300pt;
 }
+
 .wrap3{
 	text-align: center;
 	align-content: center;
 	justify-content: center;
 	align-items: center;
 	display: flex;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .box3{
 padding: 20px;
@@ -293,12 +294,34 @@ padding: 20px;
 	height: 299px;
 	border-radius: 10px;
 }
+.style-label{
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+.image-card:hover{
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out 0.3s;
+}
+.position-icon{
+	margin-top: 250px;
+	padding: 5px;
+}
+.position-icon:hover{
+	opacity: 60%;
+	margin-top: 250px;
+	padding: 5px;
+}
+
 .image-card2{
-	
-	background-image: url("img/sarah.png");
+	color: aliceblue;
+	background-image: url("img/sarah.png") ;
 	width: 250px;
 	height: 299px;
 	border-radius: 10px;
+}
+.image-card2:hover{
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out 0.3s;
 }
 .image-card3{
 	
@@ -307,12 +330,22 @@ padding: 20px;
 	height: 299px;
 	border-radius: 10px;
 }
+.image-card3:hover{
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out 0.3s;
+	 
+}
 .image-card4{
 	
 	background-image: url("img/simona.png");
 	width: 250px;
 	height: 299px;
 	border-radius: 10px;
+}
+.image-card4:hover{
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out 0.3s;
+	
 }
 
 /* About us end*/
@@ -362,7 +395,7 @@ padding: 20px;
 
    .label {
       position: absolute;
-      bottom: 11px;
+      bottom: 38px;
       font-family: trumpgothicpro, sans-serif;
       font-size: 19px;
       letter-spacing: 3px;
@@ -372,19 +405,20 @@ padding: 20px;
       transition: transform .2s ease-in-out;
    }
    
-.label:hover {
-    transform: translateY(-24px);
-}
+
 
    .submit-button {
+	   margin-top: 50px;
+	  text-align: center;
       background-color: #BE77CE;
       color: #151631;
       font-family: trumpgothicpro, sans-serif;
       letter-spacing: 3px;
-      font-size: 20px;
+      width: 100%;
       padding: 10px 20px;
       border: none;
       cursor: pointer;
+	   font-size: 20px;
    }
 
 .submit-button:hover {
