@@ -6,13 +6,25 @@
   box-sizing: border-box;
 	
 }
+@font-face {
+font-family: 'trump';
+src: url("font/trump/trump.ttf")format('truetype');
+}
+@font-face {
+font-family: 'cantarell bold';
+src: url("font/cantarell/Cantarell-Bold.ttf") format('truetype');
+}
+@font-face {
+font-family: 'cantarell regular';
+src: url("font/cantarell/Cantarell-Regular.ttf") format('truetype');
+}
 html {
   scroll-behavior: smooth;
 }
 
 body {
 	 
-	background: #151631;
+	background: #151730;
 }
 
 
@@ -80,7 +92,7 @@ color: white;
 }
 
 .sytle-nav a {
-    font-family: trumpgothicpro, sans-serif;
+    font-family: 'trump';
 	font-weight: 700;
 	font-style: normal;
 	font-size: 20px;
@@ -90,6 +102,9 @@ color: white;
 
 .sytle-nav a:hover {
     color: #8610de;
+}
+.sytle-nav a:active {
+    color: #A378C1;
 }
 
 li img{
@@ -140,7 +155,7 @@ li img:hover {
 color: #ffffff;
 opacity: 30%;
 text-align: center;
-font-family: trumpgothicpro, sans-serif;
+font-family: 'trump';
 font-size: 52px;
 font-weight: 700;
 font-style: normal;
@@ -175,9 +190,8 @@ h1{
 color: #ffffff;
 opacity: 100%;
 text-align: center;
-font-family: 'Cantarell', sans-serif;
+font-family: 'cantarell bold';
 font-size: 20px;
-font-weight: 700;
 font-style: normal;
 letter-spacing: 1px;
 margin-bottom: 0px;
@@ -186,9 +200,8 @@ p{
 color: #ffffff;
 opacity: 100%;
 text-align: center;
-font-family: 'Cantarell', sans-serif;
+font-family: 'cantarell regular';
 font-size: 15px;
-font-weight: 400;
 font-style: normal;
 letter-spacing: 1px;
 margin-top: 10px;
@@ -385,10 +398,9 @@ padding: 20px;
       border-width: 0 0 2px 0;
       border-color: #8628bd;
        width: 100%;
-      font-family: 'Cantarell', sans-serif;
+      font-family: 'cantarell regular';
       font-size: 18px;
       line-height: 26px;
-      font-weight: 400;
       background-color: #151631;
        color: #dfaee7;
 }
@@ -396,7 +408,7 @@ padding: 20px;
    .label {
       position: absolute;
       bottom: 38px;
-      font-family: trumpgothicpro, sans-serif;
+      font-family:'trump';
       font-size: 19px;
       letter-spacing: 3px;
       line-height: 24px;
@@ -412,7 +424,7 @@ padding: 20px;
 	  text-align: center;
       background-color: #BE77CE;
       color: #151631;
-      font-family: trumpgothicpro, sans-serif;
+      font-family: 'trump';
       letter-spacing: 3px;
       width: 100%;
       padding: 10px 20px;
@@ -425,33 +437,55 @@ padding: 20px;
       background-color: #8628bd;
    }
 
+.submit-button:active {
+      background-color: #A378C1;
+   }
 /* contact end*/
 
 /* footer*/
 .footer-style{
+	
 	display: flex;
 	width: 100%;
-	height: 100px;
+	height: 200px;
 	background: rgba(45,20,125,1.00);
 	position: absolute;
 	margin-top: 4450px;
-	flex-flow: row;
 	color: aliceblue;
 	font-size: 15px;
+	
 }
-.bottom-space{
-	padding-top: -10px;
-	padding-left: 20px;
+.position-li{
+	margin-top: 50px;
 }
-.bottom-space-logo{
-	padding-top: 30px;
-	margin-left: 40px;
+.image-space{
+	margin-left: 15px;
+	margin-top: 20px;
+	
 }
 
-.footer-style li{
-	float: right;
-	padding: 40px;
-	list-style-type:none;
+ul.position-li li{
+	font-size: 15px;
+	list-style: none;
+	color:"#ffffff";
+	 display: inline;
+	padding: 10px;
+	
+	
+	
+}
+
+li a{
+	color: white; 
+	
+}
+.social-icon{
+	margin-top: 30px;
+	margin-left: 8px;
+	
+}
+.pos-copy{
+	margin-top: 20px;
 }
 /* footer*/
 @media all and (min-device-width : 320px) and (max-device-width : 480px) {
@@ -588,6 +622,9 @@ padding: 20px;
 		
 	}
 .container4{
+	
 		margin-top: 6000px;
 	}
+	
 }
+
