@@ -12,7 +12,7 @@
 <!-- navbar start -->
 
 <hero>
-  <div id="navbar" >
+  <div id="navbar">
     <div id="menu-toggle">
       <div class="mobile-menu positionx">
         <button class="mobile-button"><img src="img/menu.png" width="40%" height="40%" alt="menu"> </button>
@@ -41,23 +41,29 @@
 <!-- services -->
 
 <section class="container animate__animated animate__fadeInUp wow">
-	<div id="services"></div>
-    <div><div class="title1">01 SERVICES</div>
-  <div class="wrap">	 
-    <div class="box"> <img src="img/uiux.gif" width="180px" alt="">
-      <h1>UI/UX DESIGN</h1>
-      <p>Design and create UI / UX as a skin,<br> observing the identity of the individual customer or<br>agency</p>
-    </div>
-    <div class="box"> <img src="img/web.gif" width="180px" alt="">
-      <h1>WEB DESIGN</h1>
-      <p>We'll let you make some noise on the internet.<br>Carve out a space</p>
-    </div>
-    <div class="box"> <img src="img/Gatto.gif" width="180px" alt="">
-      <h1>GAME DESIGN</h1>
-      <p>Design and create UI / UX as a skin, observing<br>the identity of the individual customer or<br>agency</p>
+  <div id="services"></div>
+  <div>
+    <div class="title1">01 SERVICES</div>
+    <div class="wrap">
+      <div class="box"> <img src="img/uiux.gif" width="120px" alt="">
+        <h1>UI/UX DESIGN</h1>
+        <p>Design and create UI / UX as a skin,<br>
+          observing the identity of the individual customer or<br>
+          agency</p>
+      </div>
+      <div class="box"> <img src="img/web.gif" width="120px" alt="">
+        <h1>WEB DESIGN</h1>
+        <p>We'll let you make some noise on the internet.<br>
+          Carve out a space</p>
+      </div>
+      <div class="box"> <img src="img/Gatto.gif" width="120px" alt="">
+        <h1>GAME DESIGN</h1>
+        <p>Design and create UI / UX as a skin, observing<br>
+          the identity of the individual customer or<br>
+          agency</p>
+      </div>
     </div>
   </div>
-    </div>
 </section>
 
 <!-- services end --> 
@@ -67,7 +73,31 @@
     <div id="works">
       <div class="title1">02 WORKS</div>
       <div class="row top-space">
-        <div class="column"> <img src="img/image_processing20200521-32025-1tjo14v.gif" style="width:450px, height:300px"  alt=""> <img src="img/Gif.gif" style="width:425px, height:380px" alt=""> </div>
+		  <div id="popup5" class="overlay">
+            <div class="popup">
+				
+				<img src="img/image_processing20200521-32025-1tjo14v.gif" alt="" width="90%" id="mainImage">
+				
+				<button onClick="changeImage()">next</button>
+             
+              <a class="close" href="#null">&times;</a>
+              <div class="content"></div>
+            </div>
+          </div>
+		  <div id="popup6" class="overlay">
+            <div class="popup">
+				
+				<img src="img/Gif.gif" alt="" width="90%" id="mainImageDue">
+				
+				<button onClick="changeImageDue()">next</button>
+             
+              <a class="close" href="#null">&times;</a>
+              <div class="content"></div>
+            </div>
+          </div>
+        <div class="column"> 
+			
+			<a href="#popup5"><img src="img/image_processing20200521-32025-1tjo14v.gif" style="width:450px, height:300px"  alt=""></a> <a href="#popup6"><img src="img/Gif.gif" style="width:425px, height:380px" alt=""></a> </div>
         <div class="column"> <img src="img/drip.jpg" style="width:450px, height:300px"  alt=""> <img src="img/image_processing20191103-13576-1904aj2.jpg" style="width:425px, height:380px" alt=""> </div>
         <div class="column"> <img src="img/image.png" style="width:450px, height:300px"  alt=""> <img src="img/image_processing20190828-29461-1qv2jjn.png" style="width:425px, height:380px" alt=""> </div>
         <div class="column"> <img src="img/dribbble_tavola_disegno_1_4x.png" style="width:450px, height:300px"  alt=""> <img src="img/cug.png" style="width:425px, height:380px" alt=""> </div>
@@ -80,30 +110,60 @@
 
 <!-- aboutus start -->
 <section class="container3 animate__animated animate__fadeInUp wow">
-    <div id="aboutus"></div>
-    <div><div class="title1">03 ABOUT US</div>
-		<div>
-  <div class="wrap3">
-    <div class="box3">
-		<p class="style-label">Alessia Allucci</p>
-		<div class="image-card"><a target="_blank" href="https://www.behance.net/alessiaallucci"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/uranly"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><a target="_blank"></a><img src="img/mail.png" alt="" width="15%" class="position-icon"></div></div>
-	
-	  <div class="box3">
-		  <p class="style-label">Sarah Riccio</p>
-		  <div class="image-card2"><a target="_blank" href="https://www.behance.net/sarahriccio"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/Ericius"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><a><img src="img/mail.png" alt="" width="15%" class="position-icon"></a></div></div>
-	  
-	   <div class="box3">
-		   <p class="style-label">Gennaro Borriello</p>
-		   <div class="image-card3">
-<a target="_blank" href="https://www.behance.net/gebo"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a>
-<a target="_blank" href="https://dribbble.com/gebson"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a>
-<img src="img/mail.png" alt="" width="15%" class="position-icon"></div></div>
-	  
-    <div class="box3">
-		<p class="style-label">Simona Correale</p>
-		<div class="image-card4"><a target="_blank" href="https://www.behance.net/simonacorreale"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/SimonaCorreale"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><img src="img/mail.png" alt="" width="15%" class="position-icon"></div></div>
-        </div>
-		</div>
+  <div id="aboutus"></div>
+  <div>
+    <div class="title1">03 ABOUT US</div>
+    <div>
+      <div class="wrap3">
+        <div class="box3">
+          <div id="popup1" class="overlay">
+            <div class="popup">
+				<img src="img/allucci.png" alt="" width="100px">
+              <h2>Alessia Allucci</h2>
+              <a class="close" href="#null">&times;</a>
+              <div class="content"> I'm Alessia </div>
+            </div>
+          </div>
+          <div id="#popup1" class="image-card"><a  target="_blank" href="https://www.behance.net/alessiaallucci"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/uranly"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><a target="_blank"></a><a href="mailto:benzojude@gmail.com" target="_blank"><img src="img/mail.png" alt="" width="15%" class="position-icon"></a> </div>
+           <div class="porition-but-detail"><a class="button" href="#popup1">ABOUT ALESSIA</a></div>
+		  </div>
+        <div class="box3">
+          <div id="popup2" class="overlay">
+            <div class="popup">
+				<img src="img/riccio.png" alt="" width="100px">
+              <h2>Sarah Riccio</h2>
+				
+              <a class="close" href="#null">&times;</a>
+              <div class="content">Ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao lolololol ciao
+				</div>
+		  </div>
+          </div>
+          <div  id="#popup2" class="image-card2"><a target="_blank" href="https://www.behance.net/sarahriccio"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/Ericius"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><a href="mailto:benzojude@gmail.com" target="_blank"><img src="img/mail.png" alt="" width="15%" class="position-icon"></a></div>
+           <div class="porition-but-detail"><a class="button" href="#popup2">ABOUT SARAH</a></div></div>
+        <div class="box3">
+          <div id="popup3" class="overlay">
+            <div class="popup">
+				<img src="img/borriello.png" alt="" width="100px">
+              <h2>Gennaro Borriello</h2>
+              <a class="close" href="#null">&times;</a>
+              <div class="content"> I'm Gennaro </div>
+            </div>
+          </div>
+          <div  id="#popup3" class="image-card3"> <a target="_blank" href="https://www.behance.net/gebo"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a> <a target="_blank" href="https://dribbble.com/gebson"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a> <a href="mailto:benzojude@gmail.com" target="_blank"><img src="img/mail.png" alt="" width="15%" class="position-icon"></a></div>
+          <div class="porition-but-detail"><a class="button" href="#popup3">ABOUT GENNARO</a> </div></div>
+        <div class="box3">
+          <div id="popup4" class="overlay">
+            <div class="popup">
+				<img src="img/correale.png" alt="" width="100px">
+              <h2>Simona Correale</h2>
+              <a class="close" href="#null">&times;</a>
+              <div class="content"> I'm Simona </div>
+            </div>
+          </div>
+          <div  id="#popup4" class="image-card4"><a target="_blank" href="https://www.behance.net/simonacorreale"><img src="img/behance.png" alt="" width="15%%" class="position-icon"></a><a target="_blank" href="https://dribbble.com/SimonaCorreale"><img src="img/dribble.png" alt="" width="15%%" class="position-icon"></a><a href="mailto:benzojude@gmail.com" target="_blank"><img src="img/mail.png" alt="" width="15%" class="position-icon"></a></div>
+			<div class="porition-but-detail"><a class="button" href="#popup4">ABOUT SIMONA</a></div></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -113,59 +173,39 @@
     <div id="contacts">
       <div class="title1">04 CONTACTS</div>
       <div class="form-field colcont x-50">
-         <input id="name" class="input-text js-input" type="text" required>
-         <label class="label" for="name">NAME</label>
+        <input id="name" class="input-text js-input" type="text" required>
+        <label class="label" for="name">NAME</label>
       </div>
       <div class="form-field colcont x-50">
-         <input id="email" class="input-text js-input" type="email" required>
-         <label class="label" for="email">E-MAIL</label>
+        <input id="email" class="input-text js-input" type="email" required>
+        <label class="label" for="email">E-MAIL</label>
       </div>
       <div class="form-field colcont x-100">
-         <input id="message" class="input-text js-input" type="text" required>
-         <label class="label" for="message">MESSAGE</label>
+        <input id="message" class="input-text js-input" type="text" required>
+        <label class="label" for="message">MESSAGE</label>
       </div>
       <div class="form-field colcont x-100 align-center">
-         <input class="submit-button" type="submit" value="SUBMIT">
+        <input class="submit-button" type="submit" value="SUBMIT">
       </div>
-        </div>
-	  </div>
-      </section>
+    </div>
+  </div>
+</section>
 <!-- form end --> 
 
 <!-- footer start -->
 <footer class="footer-style">
-	
-	<div>
-	<img src="img/animation.gif" alt="animation" width="100px;" class="image-space">
-	
-		</div>
-	<div class="list-footer">
-		
-	<ul class="position-li">
-		
-		
-		<li><a href="#services">SERVICES</a></li>
-		
-        <li><a href="#works">WORKS</a></li>
-		
-        <li><a href="#aboutus">ABOUT US</a></li>
-		
-        <li><a href="#contacts">CONTACTS</a></li>
-		
-	</ul>
-		<div class="social-icon">
-		
-	    <img src="img/behance.png" width="40px" alt="">
-		<img src="img/behance.png" width="40px" alt="">
-		<img src="img/behance.png" width="40px" alt="">
-		
-		<div class="pos-copy">Copyright 2020</div>
-		</div>
-	
-	</div>
-	
-
-	
+  <div> <img src="img/animation.gif" alt="animation" width="100px;" class="image-space"> </div>
+  <div class="list-footer">
+    <ul class="position-li">
+      <li><a href="#services">SERVICES</a></li>
+      <li><a href="#works">WORKS</a></li>
+      <li><a href="#aboutus">ABOUT US</a></li>
+      <li><a href="#contacts">CONTACTS</a></li>
+    </ul>
+    <div class="social-icon"> <img src="img/behance.png" width="40px" alt=""> <img src="img/behance.png" width="40px" alt=""> <img src="img/behance.png" width="40px" alt="">
+      <div class="pos-copy">Copyright 2020</div>
+    </div>
+  </div>
 </footer>
 <!-- footer end --> 
 <!-- js before the body close tag --> 
@@ -198,12 +238,37 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-100px";
   }
 }
-</script> 
+</script>
+	<!-- gallery --> 
+	<script type="text/javascript">
+		var myImage = document.getElementById('mainImage');
+		var imageArray = ["img/image_processing20200521-32025-1tjo14v.gif","img/Gif.gif","img/drip.jpg","img/image_processing20200127-21623-1g0k1jv.jpg","img/image_processing20200127-21623-tr7iq6.jpg","img/image_processing20191103-13576-1904aj2.jpg","img/image_processing20190826-24666-1w4ef8k.png","img/dribbble_tavola_disegno_1_4x.png","img/cug.png","img/image_processing20190828-29461-1qv2jjn.png"];
+		var imageIndex = 1
+		function changeImage (){
+			myImage.setAttribute("src", imageArray[imageIndex]);
+			imageIndex++;
+			if (imageIndex > 8) {imageIndex = 0;}
+			
+		}
+</script>
+	<!-- gallery2 --> 
+	<script type="text/javascript">
+		var myImageDue = document.getElementById('mainImageDue');
+		var imageArrayDue = ["img/drip.jpg","img/image_processing20200127-21623-1g0k1jv.jpg","img/image_processing20200127-21623-tr7iq6.jpg","img/image_processing20191103-13576-1904aj2.jpg","img/image_processing20190826-24666-1w4ef8k.png","img/dribbble_tavola_disegno_1_4x.png","img/cug.png","img/image_processing20190828-29461-1qv2jjn.png","img/image_processing20200521-32025-1tjo14v.gif"];
+		var imageIndexDue = 1
+		function changeImageDue (){
+			myImageDue.setAttribute("src", imageArrayDue[imageIndexDue]);
+			imageIndexDue++;
+			if (imageIndexDue > 8) {imageIndexDue = 1;}
+			
+		}
+</script>
+	
+	
 <!-- JS WOW --> 
-<script src="js/wow.min.js"></script>
-              <script>
+<script src="js/wow.min.js"></script> 
+<script>
               new WOW().init();
               </script>
-	
 </body>
 </html>
