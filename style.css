@@ -25,7 +25,7 @@ html {
 
 body {
 	 
-	background: #151730;
+	background: #151834;
 }
 /* reset style close color body */
 /* slideshow */
@@ -164,7 +164,7 @@ body {
 
 .popup {
 	
-  margin: 250px auto;
+  margin: 150px auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -358,7 +358,7 @@ margin-bottom: 40px;
 	position: absolute;
 	justify-content: center;
 	margin-top: 990pt;
-	background: #151631;	
+	background: #151834;	
 }
 .wrap{
 	text-align: center;
