@@ -869,7 +869,7 @@ li a{
      .footer-style{
         margin-top: 3800px;
      
-}
+}}
  @media all and (min-width: 938px) and (max-width: 1502px) {
        .container2{
         margin-top: 1300pt;	
@@ -888,6 +888,7 @@ li a{
         margin-top: 3800px;
      
 }
+	}
 @media all and (min-width: 938px) and (max-width: 1017px) {
     .container{
         margin-top: 390pt;	
@@ -911,7 +912,7 @@ li a{
         margin-top: 4100px;
         
     }
-    }
+	 }
 /* mobile*/
 @media all and (min-width: 320px) and (max-width: 500px) {
     .container{
@@ -937,9 +938,5 @@ li a{
         margin-top: 7000px;
         
     }
-}
-
-
-
-
-
+	}
+	
