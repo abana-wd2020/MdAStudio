@@ -131,6 +131,7 @@ body {
       cursor: pointer;
 	  font-size: 20px;
 	  transition: all 0.2s ease-out;
+	text-decoration: none;
 	   
 	   
    }
@@ -175,7 +176,7 @@ body {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: 'cantarell bold';
 }
 .popup .close {
   position: absolute;
@@ -184,8 +185,8 @@ body {
   transition: all 200ms;
   font-size: 30px;
   font-weight: bold;
-	font-family: 'cantarell regular';
-	z-index: 80;
+  font-family: 'cantarell regular';
+  z-index: 80;
   text-decoration: none;
   color: #333;
 }
@@ -195,6 +196,7 @@ body {
 .popup .content {
   max-height: 30%;
   overflow: auto;
+  font-family: 'cantarell regular';
 }
 
 @media screen and (max-width: 700px){
@@ -654,14 +656,26 @@ padding: 20px;
 	margin-top: 4450px;
 	color: aliceblue;
 	font-size: 15px;
+	font-family: 'cantarell regular';
+}
+
+.footer-style a{
+	text-decoration: none;
+	font-family: 'cantarell regular';
+
 	
 }
+
+
 .position-li{
 	margin-top: 50px;
+	text-decoration: none;
+	
 }
 .image-space{
 	margin-left: 15px;
 	margin-top: 20px;
+	text-decoration: none;
 	
 }
 
@@ -671,6 +685,8 @@ ul.position-li li{
 	color:"#ffffff";
 	 display: inline;
 	padding: 10px;
+	padding-top: 10px;
+	text-decoration: none;
 	
 	
 	
@@ -681,12 +697,12 @@ li a{
 	
 }
 .social-icon{
-	margin-top: 30px;
+	margin-top: 10px;
 	margin-left: 8px;
 	
 }
 .pos-copy{
-	margin-top: 20px;
+	margin-top: 10px;
 }
 /* footer*/
 @media all and (max-width: 1616px) {
@@ -886,6 +902,7 @@ li a{
     }
      .footer-style{
         margin-top: 3800px;
+		
      
 }
 	}
@@ -942,7 +959,18 @@ li a{
 	}
     .footer-style{
         margin-top: 7000px;
+		
+		
         
     }
+	ul.position-li li{
+	
+	padding: 3px;
+		font-size: 13px;
+	
+	
+	
+}
+
 	}
 	
