@@ -4,9 +4,9 @@
 <style type="text/css">
 	
 	
-	#Livello_3 {
-animation: fadeIn ease 15s;
+#Livello_3 {
 -webkit-animation: fadeIn ease 15s;
+animation: fadeIn ease 15s;
 -moz-animation: fadeIn ease 15s;
 -o-animation: fadeIn ease 15s;
 -ms-animation: fadeIn ease 15s;
