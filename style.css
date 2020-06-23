@@ -449,6 +449,13 @@ margin-bottom: 0px;
 }
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
+	.position-thumb-image{
+	
+	top: 10%;
+	left: 0;
+	right: 0;
+}
+	
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -458,6 +465,12 @@ margin-bottom: 0px;
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+	.position-thumb-image{
+	
+	top: 10%;
+	left: 0;
+	right: 0;
+}
   .column {
     -ms-flex: 100%;
     flex: 100%;
@@ -678,7 +691,11 @@ padding: 20px;
 
 
 /* footer*/
+@media all and (max-width: 1186px) {
+	
+}
 @media all and (max-width: 1616px) {
+
     .container{
         margin-top: 800px;
     }
@@ -689,12 +706,12 @@ padding: 20px;
     .container3{
         margin-top: 3200px;
     }
-.container4{
+	.container4{
 		margin-top: 4800px;
 	}
    
 }
-.footer-style{
+	.footer-style{
 	margin-top: 4500px;
 }
 
@@ -765,6 +782,12 @@ padding: 20px;
 }
 
 @media all and (min-width: 700px) and (max-width: 937px) {
+	.position-thumb-image{
+	
+	top: 15%;
+	left: 0;
+	right: 0;
+}
     .container{
         margin-top: 350pt;	
         
@@ -825,7 +848,7 @@ padding: 20px;
     }
     
    }
-        @media all and (min-width: 938px) and (max-width: 1603px) {
+@media all and (min-width: 938px) and (max-width: 1603px) {
             .container2{
         margin-top: 1200pt;	
         
@@ -845,16 +868,16 @@ padding: 20px;
     
     }
 @media all and (min-width: 938px) and (max-width: 1554px) {
-       .container2{
+    .container2{
         margin-top: 1300pt;	
         
     }
-       .container3{
+    .container3{
         margin-top: 1600pt;	
         
     }
      
-                 .container4{
+     .container4{
         margin-top: 2400pt;	
         
     }
